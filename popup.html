@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Click Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Auto Click Extension</h1>
+    <p>Enter timeout (in minutes):</p>
+    <input type="number" id="timeout" placeholder="Enter timeout in minutes" min="1">
+    <button id="startButton">Start Auto Clicking</button>
+    <button id="stopButton">Stop Auto Clicking</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
